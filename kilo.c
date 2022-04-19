@@ -138,6 +138,8 @@ enum KEY_ACTION{
         PAGE_DOWN
 };
 
+void print();
+
 void editorSetStatusMessage(const char *fmt, ...);
 
 /* =========================== Syntax highlights DB =========================
